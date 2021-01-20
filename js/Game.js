@@ -74,6 +74,13 @@ end(){
           cars[index - 1].shapeColor = "red";
           camera.position.x = displayWidth/2;
           camera.position.y = cars[index-1].y
+          fill("red")
+          //circle(cars[index-1].x,100)
+         circle (cars[index-1].x,cars[index-1].y,100)
+         
+
+          
+       
         }
        
         //textSize(15);
